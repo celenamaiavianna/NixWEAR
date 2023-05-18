@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HOME - NIX WEAR </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="Script.js">
+</head>
+<body id="Home">
+  
+<header id="Header_home">
+  <h1 id="Logo">
+    <a href="#"><img src="imagens/nx2 1.png" alt="Logo"></a>
+    
+  </h1>
+
+  <div class="pesquisa">
+
+    <input type="text" placeholder="Busque aqui.">
+    <button type="button">
+      <img src="imagens/Group 2 (1).png" alt="Psquisa">
+    </button>
+  </div>
+
+  <div class="menu">
+    <img id="menuBotao" src="imagens/hamburguer.png" onclick="changeImage()">
+    
+   
+    <div class="submenu">
+      <ul>
+        <li><a href="#"><img src="imagens/Favoritos icon.png">Favoritos</a></li>
+        <li><a href="#"><img src="imagens/Carrinho icon.png">Carrinho</a></li>
+        <li><a href="#"><img src="imagens/Categorias icon.png">Categorias</a></li>
+        <li><a href="login.html"><img src="imagens/Perfil Hamburguer.png">Perfil</a></li>
+      </ul>
+    </div>
+    
+  </header>
+
+  <div class="carousel">
+    <div class="slide">
+      <a href="#"><img src="imagens/20220930_183557_0000.png" alt="Slide 1"></a>
+    </div>
+    <div class="slide">
+      <a href="#"><img src="imagens/20220930_203034_0000.png" alt="Slide 2"></a>
+    </div>
+    <div class="slide">
+      <a href="#"><img src="imagens/Perfil Hamburguer.png" alt="Slide 3"></a>
+    </div>
+  
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+  </div>
+
+  <main>
+    <h2 id="subtitulo-home">
+      Destaques
+    </h2>
+  </main>
+  <script src="Script.js"></script>
+
+
+</body>
+</html>
